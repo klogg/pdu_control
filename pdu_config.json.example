@@ -1,0 +1,108 @@
+{
+  "pdus": {
+    "pdu1": {
+      "ip": "192.168.1.100"
+    },
+    "pdu2": {
+      "ip": "192.168.1.101"
+    }
+  },
+  "sockets": {
+    "s1": {
+      "pdu_id": "pdu1",
+      "outlet": 1,
+      "serial": "/dev/ttyS0",
+      "baudrate": 115200
+    },
+    "s2": {
+      "pdu_id": "pdu1",
+      "outlet": 2,
+      "serial": "/dev/ttyS1",
+      "baudrate": 115200
+    },
+    "s3": {
+      "pdu_id": "pdu1",
+      "outlet": 3,
+      "serial": "/dev/ttyS2",
+      "baudrate": 115200
+    },
+    "s4": {
+      "pdu_id": "pdu1",
+      "outlet": 4,
+      "serial": "/dev/ttyS3",
+      "baudrate": 115200
+    },
+    "s5": {
+      "pdu_id": "pdu1",
+      "outlet": 5,
+      "serial": "/dev/ttyS4",
+      "baudrate": 115200
+    },
+    "s6": {
+      "pdu_id": "pdu1",
+      "outlet": 6,
+      "serial": "/dev/ttyS5",
+      "baudrate": 115200
+    },
+    "s7": {
+      "pdu_id": "pdu1",
+      "outlet": 7,
+      "serial": "/dev/ttyS6",
+      "baudrate": 115200
+    },
+    "s8": {
+      "pdu_id": "pdu1",
+      "outlet": 8,
+      "serial": "/dev/ttyS7",
+      "baudrate": 115200
+    },
+    "s9": {
+      "pdu_id": "pdu2",
+      "outlet": 1,
+      "serial": "/dev/ttyS8",
+      "baudrate": 115200
+    },
+    "s10": {
+      "pdu_id": "pdu2",
+      "outlet": 2,
+      "serial": "/dev/ttyS9",
+      "baudrate": 115200
+    },
+    "s11": {
+      "pdu_id": "pdu2",
+      "outlet": 3,
+      "serial": "/dev/ttyS10",
+      "baudrate": 115200
+    },
+    "s12": {
+      "pdu_id": "pdu2",
+      "outlet": 4,
+      "serial": "/dev/ttyS11",
+      "baudrate": 115200
+    },
+    "s13": {
+      "pdu_id": "pdu2",
+      "outlet": 5,
+      "serial": "/dev/ttyS12",
+      "baudrate": 115200
+    },
+    "s14": {
+      "pdu_id": "pdu2",
+      "outlet": 6,
+      "serial": "/dev/ttyS13",
+      "baudrate": 115200
+    },
+    "s15": {
+      "pdu_id": "pdu2",
+      "outlet": 7,
+      "serial": "/dev/ttyS14",
+      "baudrate": 115200
+    },
+    "s16": {
+      "pdu_id": "pdu2",
+      "outlet": 8,
+      "serial": "/dev/ttyS15",
+      "baudrate": 115200
+    }
+  }
+}

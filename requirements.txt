@@ -1,0 +1,10 @@
+keyring>=23.0 # Or a version compatible with your system/backend
+lxml>=4.6     # Dependency for intellinet_pdu_api
+
+# The intellinet_pdu_api library itself is not on PyPI.
+# You need to ensure the 'intellinet_pdu_api' directory from the GitHub repo
+# (https://github.com/01programs/Intellinet_163682_IP_smart_PDU_API)
+# is accessible in your Python environment (e.g., place it alongside board.py
+# or install it manually if it had a setup.py).
+# Alternatively, if using pip with Git:
+# git+https://github.com/01programs/Intellinet_163682_IP_smart_PDU_API.git#egg=intellinet_pdu_api&subdirectory=intellinet_pdu_api
